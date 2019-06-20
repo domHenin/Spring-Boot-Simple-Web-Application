@@ -2,8 +2,8 @@ HELP.md
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**
-!**/src/test/**
+#!**/src/main/**
+#!**/src/test/**
 
 ### STS ###
 .apt_generated
@@ -76,4 +76,4 @@ gradle/wrapper/gradle-wrapper.properties
 gradlew
 gradlew.bat
 settings.gradle
-src/
+#src/
